@@ -37,7 +37,7 @@ setup(
         'Intended Audience :: Developers',
         'Topic :: Utilities',
     ],
-    tests_requires=[
+    tests_require=[
         'pytest',
     ],
     cmdclass={
