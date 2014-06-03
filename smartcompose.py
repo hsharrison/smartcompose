@@ -6,11 +6,15 @@
  - Copyright (c) 2014 Henry S. Harrison, henry.schafer.harrison@gmail.com
 
 """
-from functools import partialmethod, partial
+from functools import partial
+try:
+    from functools import partialmethod
+except ImportError:
+    from partialmethod import partialmethod
 
 
 __all__ = ['delegate']
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 def _call_delegated_method(attribute_name, self, method_name, *args, **kwargs):
