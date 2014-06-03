@@ -2,7 +2,9 @@
 ==================================================
 
 Decorate a class with ``@delegate(attribute_name, method_names)``
-to delegate the methods in ``method_names`` to the attribute ``attribute_name``::
+to delegate the methods in ``method_names`` to the attribute ``attribute_name``:
+
+.. code:: python
 
     In [1]: from smartcompose import delegate
 
