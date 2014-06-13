@@ -26,7 +26,7 @@ setup(
     license='MIT',
     keywords='composition delegation delegate compose',
     url='https://github.com/hsharrison/smartcompose',
-    py_modules=['smartcompose'],
+    py_modules=['smartcompose', 'partialmethod'],
     long_description=open('README.rst').read(),
     classifiers=[
         'Programming Language :: Python',

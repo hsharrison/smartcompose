@@ -14,7 +14,7 @@ except ImportError:
 
 
 __all__ = ['delegate']
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 
 def _call_delegated_method(attribute_name, self, method_name, *args, **kwargs):
